@@ -1,9 +1,4 @@
-package org.example
-
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
-import kotlin.coroutines.CoroutineContext
+package org.example.coroutines
 
 ///Обработка ошибок в корутинах///
 

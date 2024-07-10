@@ -1,4 +1,4 @@
-package org.example
+package org.example.coroutines
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

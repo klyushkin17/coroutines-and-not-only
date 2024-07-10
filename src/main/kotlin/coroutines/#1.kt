@@ -1,4 +1,4 @@
-package org.example
+package org.example.coroutines
 
 import kotlinx.coroutines.*
 import java.util.Random
