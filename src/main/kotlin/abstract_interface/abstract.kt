@@ -1,8 +1,9 @@
 package abstract_interface
 
-abstract class SpaceShuttle : Movable, Shootable{
+abstract class SpaceShuttle(
+) : Movable, Shootable{
     abstract val tankSize: Int
-    abstract fun runDiagnostic()
+    open fun runDiagnostic(){}
 }
 
 //При наследовании от абстрактного класса необходимо переопределить все поля и методы
