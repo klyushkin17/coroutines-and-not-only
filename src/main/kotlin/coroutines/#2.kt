@@ -2,6 +2,7 @@ package org.example.coroutines
 
 /*
 ///CoroutineContext///
+
 Каждая корутина реализоуется в определенном контексте
 CoroutineScope == Map<<Key<Element>>, <Element>>
 

@@ -18,6 +18,4 @@ data class User (var passportNumber: String, var lastName: String, var age: Int)
     override fun hashCode(): Int {
         return passportNumber.hashCode()
     }
-
-
 }
