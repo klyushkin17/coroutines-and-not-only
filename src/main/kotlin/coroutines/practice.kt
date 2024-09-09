@@ -2,6 +2,7 @@ package coroutines
 
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.flow.asFlow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlin.coroutines.EmptyCoroutineContext
@@ -138,6 +139,9 @@ suspend fun main(): Unit = coroutineScope {
     // Channel - необходим для передачи данных между корутинами
 
     supervisorScope {
+
+        val flowOfNumber = (1..10).asFlow()
+        val flowOfStrings = flowOf("", "", "")
 
         val channel: Channel<String> = Channel<String>()
 
