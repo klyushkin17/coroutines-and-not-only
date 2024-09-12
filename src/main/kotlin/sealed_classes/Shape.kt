@@ -2,7 +2,7 @@ package sealed_classes
 
 sealed class Shape {
     data class Circle(var radius: Float): Shape()
-    class Square(var side: Int): Shape()
+    class Square(var side: Int) : Shape()
     object NotAShape: Shape()
 
     /*sealed class Line: Shape()
